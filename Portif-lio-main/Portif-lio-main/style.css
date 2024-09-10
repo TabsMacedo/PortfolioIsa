@@ -23,11 +23,20 @@ body{
     background: radial-gradient(circle, rgb(45, 44, 44) 0%, rgba(0,0,0,1) 100%);
     color: white;
 }
-.header-nav{
-    
-}
+
+/* caixa do sobre */
 .nav__title{
-    
+    padding: 36px;
+    display: flex;
+    gap: 80px;
+    justify-content: space-around;
+
+}
+.title__itens{
+    width: 50%;
+}
+.nav__title img{
+   height: 400px;
 }
 .nav__title h1{
     font-family: "Poppins", sans-serif;
@@ -121,8 +130,11 @@ body{
     height: 90%; 
 }
 .nav__list{
-    width: 100%;
+    width: 87%;
     display: flex;
+    justify-content: flex-end;
+    gap: 24px;
+    padding: 32px;
     color: var(--white);
 }
 .nav__list li{
